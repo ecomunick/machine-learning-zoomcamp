@@ -26,3 +26,6 @@ __pycache__/
 
 **midterms_evaluations/
 **samples/
+
+# Ignore any files or folders starting with underscore
+**/_*
