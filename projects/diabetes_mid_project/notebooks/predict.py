@@ -8,7 +8,7 @@ import joblib
 # ------------------------
 # Config
 # ------------------------
-MODEL_PATH = Path('models/xgboost_model.pkl')  # use the XGBoost model
+MODEL_PATH = Path('model_store/xgboost_model.pkl')  # use the XGBoost model
 DATA_PATH = Path('../data/diabetes_new_samples.csv')        # new samples to predict
 
 # ------------------------

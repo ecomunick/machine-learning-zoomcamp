@@ -15,7 +15,7 @@ import os
 # get the directory of the current file (app.py)
 BASE_DIR = Path(__file__).resolve().parent
 
-MODEL_PATH = BASE_DIR.parent / 'models' / 'xgboost_model.pkl'
+MODEL_PATH = BASE_DIR.parent / 'model_store' / 'xgboost_model.pkl'
 model = joblib.load(MODEL_PATH)
 
 # ------------------------
