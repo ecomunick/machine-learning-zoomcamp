@@ -1,0 +1,27 @@
+# flyctl launch added from diabetes_venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/.gitignore
+diabetes_venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/pydevd_frame_evaluator.*.so
+diabetes_venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/pydevd_frame_evaluator.*.pyd
+diabetes_venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/pydevd_frame_evaluator.pyx
+
+# flyctl launch added from diabetes_venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/.gitignore
+diabetes_venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/attach_x86.dylib
+diabetes_venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/attach_x86_64.dylib
+diabetes_venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/attach_linux_x86.o
+diabetes_venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/attach_linux_x86_64.o
+
+# flyctl launch added from diabetes_venv/lib/python3.12/site-packages/jupyterlab_widgets/.gitignore
+diabetes_venv/lib/python3.12/site-packages/jupyterlab_widgets/**/*.suo
+diabetes_venv/lib/python3.12/site-packages/jupyterlab_widgets/**/*.user
+diabetes_venv/lib/python3.12/site-packages/jupyterlab_widgets/**/.DS_Store
+diabetes_venv/lib/python3.12/site-packages/jupyterlab_widgets/**/node_modules
+diabetes_venv/lib/python3.12/site-packages/jupyterlab_widgets/**/typings/tsd.d.ts
+diabetes_venv/lib/python3.12/site-packages/jupyterlab_widgets/**/npm-debug.log
+diabetes_venv/lib/python3.12/site-packages/jupyterlab_widgets/**/test/build
+diabetes_venv/lib/python3.12/site-packages/jupyterlab_widgets/**/test/coverage
+diabetes_venv/lib/python3.12/site-packages/jupyterlab_widgets/**/lib
+diabetes_venv/lib/python3.12/site-packages/jupyterlab_widgets/**/dist
+diabetes_venv/lib/python3.12/site-packages/jupyterlab_widgets/**/build
+diabetes_venv/lib/python3.12/site-packages/jupyterlab_widgets/**/docs
+diabetes_venv/lib/python3.12/site-packages/jupyterlab_widgets/**/example/*.js
+diabetes_venv/lib/python3.12/site-packages/jupyterlab_widgets/**/static
+fly.toml
