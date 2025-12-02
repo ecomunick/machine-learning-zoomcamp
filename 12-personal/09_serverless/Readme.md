@@ -3,18 +3,19 @@ Module 9 – Serverless Hair Classifier (Docker + AWS Lambda Local)
 
 Create a folder for the homework:
 
+```
 mkdir 09_serverless
 cd 09_serverless
+```
 
 2. Create predict_image.py
-
-Paste the following:
-
+'''
 import onnxruntime as ort
 import numpy as np
 from PIL import Image
 import requests
 from io import BytesIO
+'''
 
 # Load the model once
 session = ort.InferenceSession("hair_classifier_empty.onnx", providers=["CPUExecutionProvider"])
